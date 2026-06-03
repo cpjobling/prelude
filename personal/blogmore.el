@@ -20,7 +20,7 @@
    (list
     (blogmore-blog
      :title "blog.cpjobling.net"
-     :posts-directory "~/code/src/github.com/cpjobling/blog.cpjobling.me"
+     :posts-directory "~/code/src/github.com/cpjobling/blog.cpjobling.me/posts"
      :post-subdirectory-function (lambda () (format-time-string "%Y/%m/")))
     (blogmore-blog
      :title "seen-by.davep.dev"
